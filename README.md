@@ -28,37 +28,37 @@
 
 Пространство имен для выполнения задания:
 
-![k1]()
+![k1](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/png/k1.png)
 
-[deployment.yaml]()
+[deployment.yaml](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/pod_yaml/deployment.yaml)
 
-![k2]()
+![k2](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/png/k2.png)
 
 2. Создать Service, который обеспечит доступ внутри кластера до контейнеров приложения из п.1 по порту 9001 — nginx 80, по 9002 — multitool 8080.
 
-[svc_n_m.yaml]()
+[svc_n_m.yaml](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/pod_yaml/svc_n_m.yaml)
 
-![k3]()
+![k3](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/png/k3.png)
 
 3. Создать отдельный Pod с приложением multitool и убедиться с помощью `curl`, что из пода есть доступ до приложения из п.1 по разным портам в разные контейнеры.
 
-[multitool.yaml]()
+[multitool.yaml](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/pod_yaml/multitool.yaml)
 
-![k4]()
+![k4](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/png/k4.png)
 
 4. Продемонстрировать доступ с помощью `curl` по доменному имени сервиса.
 
-![k9]()
+![k9](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/png/k9.png)
 
 5. Предоставить манифесты Deployment и Service в решении, а также скриншоты или вывод команды п.4.
 
-![k5]()
+![k5](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/png/k5.png)
 
-![k6]()
+![k6](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/png/k6.png)
 
-![k7]()
+![k7](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/png/k7.png)
 
-![k8]()
+![k8](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/png/k8.png)
 
 ------
 
@@ -66,19 +66,19 @@
 
 1. Создать отдельный Service приложения из Задания 1 с возможностью доступа снаружи кластера к nginx, используя тип NodePort.
 
-[svc_nodeport.yaml]()
+[svc_nodeport.yaml](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/pod_yaml/svc_nodeport.yaml)
 
-![k10]()
+![k10](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/png/k10.png)
 
 2. Продемонстрировать доступ с помощью браузера или `curl` с локального компьютера.
 
-![k11]()
+![k11](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/png/k11.png)
 
 3. Предоставить манифест и Service в решении, а также скриншоты или вывод команды п.2.
 
-![k12]()
+![k12](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/png/k12.png)
 
-![K13]()
+![k13](https://github.com/smabramov/K8s-1-4/blob/3fc98bf9268c4e283b349b96d80f08526ce1add4/png/k13.png)
 ------
 
 ### Правила приёма работы
